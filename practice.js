@@ -44,8 +44,8 @@ function greeting (name) {
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-var myGreeting = function (name) {
-  return "Hello " + name
+var newGreeting = function (name) {
+  return "Hello, " + name
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -83,7 +83,20 @@ let devMountainClassPet = dog.name
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
-// Code here
+function nameCheck (name) {
+  if(name == 'Steven')
+  {
+    return 'What is up Steven?'
+  }
+  else if (name == 'Bryan')
+  {
+    return 'Hey Bryan!'
+  }
+  else 
+  {
+    return 'Cool name, ' + name
+  }
+}
 
 //////////////////PROBLEM 11////////////////////
 
